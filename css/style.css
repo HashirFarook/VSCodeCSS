@@ -1,21 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    padding: 10%;
-    font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
 }
 
-a {
-    color: #000;
+.block {
+    width: 30vw;
+    height: 30vw;
+    background-color: black;
+    color: whitesmoke;
+    padding: 1rem;
 }
 
-a:hover, a:focus{
-    color: dodgerblue;
+.left {
+    float: left;
+    margin-right: 10px;
 }
 
-a:active{
-    color: red;
+.right {
+    float: right;
+    margin-left: 10px;
 }
 
-/* 2:16:32 */
+.clear {
+    clear: both;
+}
